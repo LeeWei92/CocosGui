@@ -123,8 +123,7 @@ bool HttpAsynSprite::initWithFile(const std::string& filename)
 	if (frame)
 	{
 		return Sprite::initWithSpriteFrameName(filename);
-	}
-	else
+	} else
 	{
 		return Sprite::initWithFile(filename);
 	}
