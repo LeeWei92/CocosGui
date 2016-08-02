@@ -188,8 +188,7 @@ void HttpAsynSprite::startDownload()
 	if (texture)
 	{
 		setTexture(filePath);
-	}
-	else
+	} else
 	{
 		// http start downloading
 		log("startDownload fileName %s", fileName.c_str());
